@@ -10,6 +10,18 @@
 		227C12311FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C12271FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPI.framework */; };
 		227C12361FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12351FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPITests.swift */; };
 		227C12381FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 227C122A1FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227C12721FF88071004F1F84 /* ListReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12631FF88071004F1F84 /* ListReport.swift */; };
+		227C12731FF88071004F1F84 /* ListReport+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12641FF88071004F1F84 /* ListReport+Item.swift */; };
+		227C12741FF88071004F1F84 /* SearchReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12661FF88071004F1F84 /* SearchReport.swift */; };
+		227C12751FF88071004F1F84 /* SearchReport+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12671FF88071004F1F84 /* SearchReport+Item.swift */; };
+		227C12761FF88071004F1F84 /* FoodReport+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12691FF88071004F1F84 /* FoodReport+Description.swift */; };
+		227C12771FF88071004F1F84 /* FoodReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C126A1FF88071004F1F84 /* FoodReport.swift */; };
+		227C12781FF88071004F1F84 /* FoodReport+Bibliography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C126B1FF88071004F1F84 /* FoodReport+Bibliography.swift */; };
+		227C12791FF88071004F1F84 /* FoodReport+Nutrient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C126C1FF88071004F1F84 /* FoodReport+Nutrient.swift */; };
+		227C127A1FF88071004F1F84 /* FoodReport+Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C126D1FF88071004F1F84 /* FoodReport+Ingredient.swift */; };
+		227C127B1FF88071004F1F84 /* NutrientReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C126F1FF88071004F1F84 /* NutrientReport.swift */; };
+		227C127C1FF88071004F1F84 /* NutrientReport+Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12701FF88071004F1F84 /* NutrientReport+Food.swift */; };
+		227C127D1FF88071004F1F84 /* USDAAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C12711FF88071004F1F84 /* USDAAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		227C12301FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USDAFoodCompositionDatabasesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227C12351FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDAFoodCompositionDatabasesAPITests.swift; sourceTree = "<group>"; };
 		227C12371FF861B7004F1F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227C12631FF88071004F1F84 /* ListReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListReport.swift; sourceTree = "<group>"; };
+		227C12641FF88071004F1F84 /* ListReport+Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListReport+Item.swift"; sourceTree = "<group>"; };
+		227C12661FF88071004F1F84 /* SearchReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchReport.swift; sourceTree = "<group>"; };
+		227C12671FF88071004F1F84 /* SearchReport+Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchReport+Item.swift"; sourceTree = "<group>"; };
+		227C12691FF88071004F1F84 /* FoodReport+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodReport+Description.swift"; sourceTree = "<group>"; };
+		227C126A1FF88071004F1F84 /* FoodReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodReport.swift; sourceTree = "<group>"; };
+		227C126B1FF88071004F1F84 /* FoodReport+Bibliography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodReport+Bibliography.swift"; sourceTree = "<group>"; };
+		227C126C1FF88071004F1F84 /* FoodReport+Nutrient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodReport+Nutrient.swift"; sourceTree = "<group>"; };
+		227C126D1FF88071004F1F84 /* FoodReport+Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodReport+Ingredient.swift"; sourceTree = "<group>"; };
+		227C126F1FF88071004F1F84 /* NutrientReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutrientReport.swift; sourceTree = "<group>"; };
+		227C12701FF88071004F1F84 /* NutrientReport+Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NutrientReport+Food.swift"; sourceTree = "<group>"; };
+		227C12711FF88071004F1F84 /* USDAAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USDAAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				227C122A1FF861B7004F1F84 /* USDAFoodCompositionDatabasesAPI.h */,
+				227C12611FF88071004F1F84 /* Model */,
+				227C12711FF88071004F1F84 /* USDAAPI.swift */,
 				227C122B1FF861B7004F1F84 /* Info.plist */,
 			);
 			path = USDAFoodCompositionDatabasesAPI;
@@ -84,6 +110,56 @@
 				227C12371FF861B7004F1F84 /* Info.plist */,
 			);
 			path = USDAFoodCompositionDatabasesAPITests;
+			sourceTree = "<group>";
+		};
+		227C12611FF88071004F1F84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				227C12621FF88071004F1F84 /* ListReport */,
+				227C12651FF88071004F1F84 /* SearchReport */,
+				227C12681FF88071004F1F84 /* FoodReport */,
+				227C126E1FF88071004F1F84 /* NutrientReport */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		227C12621FF88071004F1F84 /* ListReport */ = {
+			isa = PBXGroup;
+			children = (
+				227C12631FF88071004F1F84 /* ListReport.swift */,
+				227C12641FF88071004F1F84 /* ListReport+Item.swift */,
+			);
+			path = ListReport;
+			sourceTree = "<group>";
+		};
+		227C12651FF88071004F1F84 /* SearchReport */ = {
+			isa = PBXGroup;
+			children = (
+				227C12661FF88071004F1F84 /* SearchReport.swift */,
+				227C12671FF88071004F1F84 /* SearchReport+Item.swift */,
+			);
+			path = SearchReport;
+			sourceTree = "<group>";
+		};
+		227C12681FF88071004F1F84 /* FoodReport */ = {
+			isa = PBXGroup;
+			children = (
+				227C12691FF88071004F1F84 /* FoodReport+Description.swift */,
+				227C126A1FF88071004F1F84 /* FoodReport.swift */,
+				227C126B1FF88071004F1F84 /* FoodReport+Bibliography.swift */,
+				227C126C1FF88071004F1F84 /* FoodReport+Nutrient.swift */,
+				227C126D1FF88071004F1F84 /* FoodReport+Ingredient.swift */,
+			);
+			path = FoodReport;
+			sourceTree = "<group>";
+		};
+		227C126E1FF88071004F1F84 /* NutrientReport */ = {
+			isa = PBXGroup;
+			children = (
+				227C126F1FF88071004F1F84 /* NutrientReport.swift */,
+				227C12701FF88071004F1F84 /* NutrientReport+Food.swift */,
+			);
+			path = NutrientReport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +224,7 @@
 				TargetAttributes = {
 					227C12261FF861B7004F1F84 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					227C122F1FF861B7004F1F84 = {
@@ -196,6 +273,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227C12731FF88071004F1F84 /* ListReport+Item.swift in Sources */,
+				227C12761FF88071004F1F84 /* FoodReport+Description.swift in Sources */,
+				227C12721FF88071004F1F84 /* ListReport.swift in Sources */,
+				227C127D1FF88071004F1F84 /* USDAAPI.swift in Sources */,
+				227C12751FF88071004F1F84 /* SearchReport+Item.swift in Sources */,
+				227C12791FF88071004F1F84 /* FoodReport+Nutrient.swift in Sources */,
+				227C12741FF88071004F1F84 /* SearchReport.swift in Sources */,
+				227C127A1FF88071004F1F84 /* FoodReport+Ingredient.swift in Sources */,
+				227C12771FF88071004F1F84 /* FoodReport.swift in Sources */,
+				227C127B1FF88071004F1F84 /* NutrientReport.swift in Sources */,
+				227C12781FF88071004F1F84 /* FoodReport+Bibliography.swift in Sources */,
+				227C127C1FF88071004F1F84 /* NutrientReport+Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +423,7 @@
 		227C123C1FF861B7004F1F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jc.USDAFoodCompositionDatabasesAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +446,7 @@
 		227C123D1FF861B7004F1F84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +468,7 @@
 		227C123F1FF861B7004F1F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22P45MFCY2;
 				INFOPLIST_FILE = USDAFoodCompositionDatabasesAPITests/Info.plist;
@@ -390,6 +483,7 @@
 		227C12401FF861B7004F1F84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22P45MFCY2;
 				INFOPLIST_FILE = USDAFoodCompositionDatabasesAPITests/Info.plist;
